@@ -224,7 +224,7 @@ void mGigEGrab::PrintCameraInfo(CameraInfo *pCamInfo,unsigned int i)
 
     cout << endl;
     cout << "*** CAMERA \033[7m"<< i+1 << "\033[0m\033[1m\033[32m INFORMATION ***" << endl;
-//    cout << "Camera model - " << pCamInfo->modelName << endl;
+    cout << "Camera model - " << pCamInfo->modelName << endl;
 //    cout << "Camera vendor - " << pCamInfo->vendorName << endl;
 //    cout << "MAC address - " << macAddress.str() << endl;
     cout << "\033[4mIP address - " << ipAddress.str() << "\033[0m\033[1m\033[32m" << endl;
