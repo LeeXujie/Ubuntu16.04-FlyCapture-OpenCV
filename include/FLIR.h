@@ -16,7 +16,7 @@ class mGigEGrab
 {
 public:
     mGigEGrab(unsigned int w,unsigned int h):numCameras(10),width(w),height(h) {}
-    ~mGigEGrab() {}
+    ~mGigEGrab() {closeCam();}
 
     bool detectCam();
     bool selectCam();
