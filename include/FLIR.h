@@ -60,7 +60,7 @@ bool mGigEGrab::detectCam()
 
     if (numCameras == 0)
     {
-        cout << "No suitable GigE cameras found. Press Enter to exit..." << endl;
+        cout << "No suitable GigE cameras found. Please check the device connection!" << endl;
         return false;
     }
 
